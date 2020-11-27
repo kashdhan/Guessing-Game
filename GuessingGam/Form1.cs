@@ -36,7 +36,7 @@ namespace GuessingGam
             }
             else
             {
-                outputLabel.Text = $"Too Low!";
+                outputLabel.Text = $"Too Low!!";
             }
         }
     }
