@@ -20,7 +20,7 @@ namespace GuessingGam
         {
             InitializeComponent();
 
-            answer = randGen.Next(1, 6);
+            answer = randGen.Next(1, 100);
         }
 
         private void GuessButton_Click(object sender, EventArgs e)
